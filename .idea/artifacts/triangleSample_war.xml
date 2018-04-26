@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="triangleSample:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="triangle.war">
+      <element id="artifact" artifact-name="triangleSample:war exploded" />
+    </root>
+  </artifact>
+</component>
