@@ -2,6 +2,7 @@ language: node_js
 
 install: true
 script: true
+
 before_install:
  - openssl aes-256-cbc -k "$super_secret_password" -in se234-1.pem.enc -out se234-1.pem -d
 after_success:
